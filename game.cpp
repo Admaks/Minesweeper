@@ -229,7 +229,7 @@ int getInput()
             result = 3;
             break;
         default:
-            result < 0;
+            result = -1;
             break;
         }
     } while (result < 0);
